@@ -13,7 +13,7 @@ Developers know this can create problems due to the use of iFrame's.<br/>
 Installing this extension will automatically add the "Remove Frame"<br/>
 to the right-side of the "Buy Now" button at the top of the page.
 
-### Notes:
+## Notes:
 
 ### Read more on [Envato forum's](https://forums.envato.com/t/why-the-x-close-button-has-been-removed-i-think-the-user-bad-experience-has-increased/348280/2)
 
