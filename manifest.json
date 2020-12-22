@@ -1,0 +1,30 @@
+{
+   "background": {
+      "scripts": [ "js/background.js" ]
+   },
+   "content_scripts": [
+		{
+			"run_at": "document_end",
+			"matches": [
+			   "*://*.envato.com/*",
+			   "*://*.codecanyon.net/*",
+			   "*://*.themeforest.net/*"
+			],
+			"js": ["js/jquery.js","js/content.js"]
+		}
+	],
+   "author": "Ez IT Solutions",
+   "description": "Envato - Remove iFrame Preview",
+   "icons": {
+      "128": "icon/icon128.png",
+      "16": "icon/icon16.png",
+      "48": "icon/icon48.png"
+   },
+   "manifest_version": 2,
+   "name": "Envato - Remove iFrame Preview",
+   "permissions": [
+   "tabs",
+   "activeTab"
+],
+   "version": "1.0.0"
+}
